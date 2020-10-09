@@ -1,0 +1,23 @@
+{
+  "name": "sit725-prac3",
+  "version": "1.0.0",
+  "description": "UI Consume Webservices",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hrahupoto/sit725-prac3.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "*",
+    "moment": "*"
+  },
+  "bugs": {
+    "url": "https://github.com/hrahupoto/sit725-prac3/issues"
+  },
+  "homepage": "https://github.com/hrahupoto/sit725-prac3#readme"
+}
