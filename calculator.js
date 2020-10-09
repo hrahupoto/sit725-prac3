@@ -8,7 +8,6 @@ var log = function (message) {
   console.log('[Server] @' + time + ' ' + message);
 };
 
-app.use(express.static(__dirname + '/public'));
 
 var adder = function (num1, num2) {
   var result = num1 + num2;
@@ -23,6 +22,6 @@ app.get('/adder', function (req, res) {
   res.send('' + result + '');
 });
 
-var port = 3000;
+var port = 4000;
 app.listen(port);
 log('Server running on ' + port);

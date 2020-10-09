@@ -15,8 +15,42 @@
 
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="env.js"></script>
   </head>
   <body>
+    <nav>
+      <div class="nav-wrapper">
+        <a href="#" class="brand-logo right">Logo</a>
+        <ul id="nav-mobile" class="left hide-on-med-and-down">
+          <li><a href="sass.html">Sass</a></li>
+          <li><a href="badges.html">Components</a></li>
+          <li><a href="collapsible.html">JavaScript</a></li>
+        </ul>
+      </div>
+    </nav>
     <h1>My cloud service</h1>
+    <h2>Use the online services</h2>
+    <div>
+      <div class="row">
+        <div class="input-field col s6">
+          <input value="" id="number1" type="number" class="validate" />
+          <label class="active" for="number1">Number 1</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s6">
+          <input value="" id="number2" type="number" class="validate" />
+          <label class="active" for="number2">Number 2</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s6">
+          <input value="" id="result" />
+          <label class="active" for="result">Result</label>
+        </div>
+      </div>
+
+      <a id="calculatebtn" class="waves-effect waves-light btn">Calculate</a>
+    </div>
   </body>
 </html>
